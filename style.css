@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(199, 174, 199);
+  
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    color: white !important;
+    letter-spacing: 1px;
+
+}
+.navbar-nav .nav-link:hover{
+    transform: translateY(3px);
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 2rem;
+}
+.navbar-toggler-icon{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+}
+.navbar-toggler:hover {
+    background-color: transparent;
+}
+img.custom-rounded {
+   border-radius: 223% 50% 129% 107%;
+  width: 400px; 
+  height: 400px;
+  }
+  .btn {
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: darkorchid;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .btn:hover{
+    background-color: darkgray;
+    color: white;
+
+  }
+
+
+
