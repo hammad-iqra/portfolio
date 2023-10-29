@@ -55,6 +55,24 @@ img.custom-rounded {
     color: white;
 
   }
+  .image-fluid{
+    border-radius: 93% 107% 129% 107%;
+    width: 400px; 
+    height: 400px;
 
+  }
+.sticky{
+    position: fixed;
+    background-color: darkmagenta;
+    width: 100%;
+    margin-top: 150px;
+}
+.navbar{
+    transition: 0.10s ease-in-out;
+}
+.box{
+    border: 5px solid white;
+    height: 300px;
+}
 
 
